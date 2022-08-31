@@ -1,0 +1,47 @@
+.fluid{
+	width: 100%;
+	background-color:#f7f7f7;
+	padding: 80px 50px;
+	@media (max-width:500px) {
+		padding: 40px 0;
+	}
+	.fluid__title{
+		width: 100%;
+		text-align: center;
+		font-size: 16px;
+		line-height: 26px;
+		font-family:Arial,sans-serif;
+		font-weight: 800;
+		letter-spacing: .08rem;
+		margin-bottom: 0.5rem;
+		text-transform: uppercase;
+	}
+	.fluid__video{
+		width: 100%;
+		margin-top:70px;
+		.fluid__video-btn{
+			position: relative;
+			left: 47%;
+			bottom: 300px;
+			width: 80px;
+			height: 80px;
+			font-size: 1rem;
+			background-color: #222;
+			color: #fff;
+			font-family:Arial,sans-serif;
+			font-weight: 300;
+			line-height: 1.5;
+			transition: 1s;
+			text-decoration: none;
+			text-align: center;
+			padding: 25px;
+			@media (max-width:1300px) {
+				display: none;
+			}
+		}
+		.fluid__video-btn:hover{
+			background: #c2b5a3;
+			color: #222;
+		}
+	}
+}

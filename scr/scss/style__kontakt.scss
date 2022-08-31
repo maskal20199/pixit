@@ -1,0 +1,61 @@
+.kontakt{
+	width: 100%;
+	display: flex;
+	padding: 100px 50px;
+	background-color: #222;
+	border-bottom: 0.7px solid rgba(255,255,255,.1);
+	transition:all 0.4s cubic-bezier(.42,.22,.42,1);
+	@media (max-width:500px) {
+		padding:0 0 0 10px;
+	}
+	.kontakt__info{
+		width: 400px;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 30px;
+		@media (max-width:500px) {
+			width: 100%;
+			padding: 0 20px 0 0;
+		}
+		.kontakt__info-title{
+			line-height: 35px;
+			font-family:Arial,sans-serif;
+			font-weight: 800;
+			color: #c2b5a3;
+			font-size: 25px;
+			letter-spacing: .08rem;
+			margin-bottom: 0.5rem;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.kontakt__info-subtitle{
+			font-family:Arial,sans-serif;
+			font-weight: 300;
+			color: #fff;
+			font-size: 20px;
+			line-height: 28px;
+			text-decoration: none;
+		}
+	}
+	.kontakt__arrow{
+		display: flex;
+		align-items: center;
+		color: #fff;
+		font-size: 30px;
+	}
+}
+.kontakt:hover{
+	background-color: #c2b5a3;
+	.kontakt__info{
+		background-color: #c2b5a3;
+		.kontakt__info-title{
+			color: #222;
+		}
+		.kontakt__info-subtitle{
+			color: #222;
+		}
+	}
+	.kontakt__arrow{	
+		color: #222;
+	}
+}

@@ -1,0 +1,101 @@
+.pixit {
+  width: 100%;
+  height: 600px;
+}
+.pixit .pixit__bacground {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(25, 25, 25, 0.4509803922), rgba(5, 5, 5, 0.368627451)), url(../img/pixit/pixit-digital-design-agency-b8f03cd1\ \(1\).jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pixit .pixit__bacground .navigation {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  position: fixed;
+}
+.pixit .pixit__bacground .navigation .logo {
+  height: 80px;
+}
+.pixit .pixit__bacground .navigation .navigation__block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pixit .pixit__bacground .navigation .navigation__block .navigation__link {
+  font-family: Arial, sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  padding: 8px 32px;
+  opacity: 1;
+}
+.pixit .pixit__bacground .navigation .navigation__block .navigation__link:hover {
+  opacity: 0.6;
+  transition: 1s;
+}
+.pixit .pixit__bacground .navigation .transparant {
+  width: 290px;
+  height: 100%;
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  align-items: center;
+  color: #222;
+  background: #c2b5a3;
+  text-decoration: none;
+  transition: ease-in 1s;
+  padding: 8px 24px;
+}
+.pixit .pixit__bacground .navigation .transparant:hover {
+  background: #fff;
+}
+.pixit .pixit__bacground .navigation .fa-solid {
+  font-size: 24px;
+  margin-left: 10px;
+}
+.pixit .pixit__content {
+  height: 361px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.pixit .pixit__content .content__text {
+  width: 800px;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.pixit .pixit__content .content__text .title {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 75px;
+  margin: 0 0 40px;
+}
+.pixit .pixit__content .content__text .subtitle {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 300;
+  color: white;
+  margin: 48px 0 16px;
+}
+.pixit .pixit__content .content__text .fa-arrow-down-long {
+  font-size: 55px;
+  color: #fff;
+}/*# sourceMappingURL=style__header.css.map */

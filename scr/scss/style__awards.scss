@@ -1,0 +1,178 @@
+.awards{
+	width: 100%;
+	padding: 80px 80px 0 80px;
+	@media (max-width:1040px) {
+		padding: 40px 0;
+	}
+	.awards__container{
+		width: 100%;
+		height: 100%;
+		background-image:linear-gradient(to top, #19191973, #0505055e),  url(../img/awards/biznes-rukopozhatie-sdelka-5061.jpg);
+		background-size: cover;
+		text-align: center;
+		padding-bottom: 100px;
+		.awards__container-title{
+			width: 100%;
+			font-family:Arial,sans-serif;
+			font-weight: 800;
+			letter-spacing: .08rem;
+			margin-bottom: 0.5rem;
+			text-transform: uppercase;
+			font-size: 30px;
+			line-height: 50px;
+			color: #ffff;
+			padding-top: 55px;
+		}
+		.awards__container-content{
+			font-family:Arial,sans-serif;
+			color: #ffff;
+			font-weight: 300;
+			font-size: 20px;
+			line-height: 28px;
+			margin-top: 1.5rem;
+			padding: 0 245px;
+			@media (max-width:750px) {
+				padding: 0;
+			}
+		}
+		.awards__container-icon{
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			color: #ffff;
+			font-size: 45px;
+			margin-top: 64px;
+		}
+	}
+	.awards__section{
+		width: 100%;
+		display: flex;
+		@media (max-width:750px) {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.awards__box-one{
+			width: 80%;
+			.awards__box-title{
+				width: 100%;
+				font-family:Arial,sans-serif;
+				font-weight: 800;
+				font-size: 18px;
+				line-height: 50px;
+				letter-spacing: .08rem;
+				margin-bottom: 0.5rem;
+				text-transform: uppercase;
+				color: #222;
+				padding-top: 80px;
+			}
+			.awards__box-content{
+				width: 100%;
+				font-size: 18px;
+				line-height: 28px;
+				margin-top: 1.5rem;
+				font-family:Arial,sans-serif;
+				font-size: 20px;
+				font-weight: 300;
+				color: #222;
+			}
+		}
+		.awards__box-two{
+			position: relative;
+			bottom: 70px;
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			background-color: #ffff;
+			padding: 48px;
+			@media (max-width:750px) {
+				position: static;
+			}
+			.box__icon1{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+				border-left: none;
+				border-top: none;
+			}
+			.box__icon2{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+				border-top: none;
+			}
+			.box__icon3{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+				border-top: none;
+				border-right: none;
+			}
+			.box__icon4{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+				border-left: none;
+			}
+			.box__icon5{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+			}
+			.box__icon6{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+				border-right: none;
+			}
+			.box__icon7{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+				border-left: none;
+			}
+			.box__icon8{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+			}
+			.box__icon9{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+				border-right: none;
+			}
+			.box__icon10{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+				border-left: none;
+				border-bottom: none;
+			}
+			.box__icon11{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+				border-bottom: none;
+			}
+			.box__icon12{
+				width: 33.3333%;
+				display: flex;
+				justify-content: center;
+				border: 1px solid rgba(0,0,0,.04);
+				border-right: none;
+				border-bottom: none;
+			}
+		}
+	}
+}
