@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel scr/index.html --open",
-    "build": "parsel build scr/index.html"
+    "build": "parcel build scr/index.html"
   },
   "author": "",
   "license": "ISC",
